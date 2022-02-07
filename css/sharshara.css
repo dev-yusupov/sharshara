@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 19px;
+	font-family: 'Poppins', sans-serif;
+	color: #363535;
+}
+
+
+/* Elements */
+h1, .h1{
+	font-size: 56px;
+	font-weight: 700;
+}
+
+h2, .h2 {
+	font-size: 50px;
+	font-weight: 700;
+}
+
+h3, .h3 {
+	font-size: 40px;
+	font-weight: 600;
+}
+
+h4, .h4 {
+	font-size: 39px;
+	font-weight: 500;
+}
+
+h5, .h5 {
+	font-size: 34px;
+	font-weight: 500;
+}
+
+h6, .h6 {
+	font-size: 29px;
+	font-weight: 400;
+}
+
+p {
+	font-size: 13px;
+	font-weight: 400;
+}
+
+a {
+	color: rgba(0,30,250,0.9);
+	font-size: 19px;
+	font-weight: 500;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.filled-button {
+	background: #07A3E7;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 8px;
+	transition: .2s;
+}
+.filled-button:hover {
+	border: 1px solid #07A3E7;
+	color: #07A3E7;
+	background: transparent;
+	text-decoration: none;
+}
+
+.container {
+	display: flex;
+}
+.row {
+	flex-direction: row;
+}
+.column {
+	flex-direction: column;
+}
+/* /Elements */
+
+/* Margins */
+
+.mt-1 {
+	margin-top: 100px;
+}
+
+.ml-1 {
+	margin-left: 100px;
+}
+.ml-2 {
+	margin-left: 10px;
+}
+
+.mr-1 {
+	margin-right: 100px;
+}
+/* /Margins */
+
+/* Paddings */
+.p-1 {
+	padding: 15px;
+}
+/* /Paddings */
+
+/* Header */
+.main-header {
+	top: 0;
+	left: 0;
+	border-bottom: 1px solid #A09494;
+	display: flex;
+	flex-direction: row;
+}
+.main-header i {
+	color: #07A3E7;
+}
+.main-header .phone-number {
+	border-right: 1px solid #A09494;
+}
+/* /Header */
+
+/* Navigation Section */
+.navbar {
+	border-bottom: 1px solid #A09494;
+	align-items: center;
+	justify-content: space-between;
+}
+.navbar .nav-items li {
+	list-style-type: none;
+	padding: 10px 20px;
+}
+
+.navbar .nav-items li a{
+	color: #363535;
+	transition: .2s;
+}
+.navbar .nav-items li a:hover, .navbar .nav-items li a.active {
+	color: #07A3E7;
+	text-decoration: none;
+}
+.navbar .nav-items li a.active {
+	font-weight: 700;
+}
+.navbar .nav-logo img {
+	height: 83px;
+
+}
+/* /Navigation Section */
+
+/* Main Section */
+.main {
+	background-image: url(../images/main-background-1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 70vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.main a.filled-button{
+	align-self: flex-end;
+	font-weight: 800;
+	margin-bottom: 50px;
+}
+/* /Main Section */
+/* About Company */
+.about-company {
+	background: #F3F3F3;
+}
+/* /About Company */
