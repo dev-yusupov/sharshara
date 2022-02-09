@@ -83,12 +83,24 @@ a:hover {
 .column {
 	flex-direction: column;
 }
+.section-title {
+	display: flex;
+	justify-content: center;
+	color: #07A3E7;
+}
 /* /Elements */
 
 /* Margins */
 
 .mt-1 {
 	margin-top: 100px;
+}
+
+.mt-2 {
+	margin-top: 60px;
+}
+.mt-3 {
+	margin-top: 10px;
 }
 
 .ml-1 {
@@ -106,6 +118,9 @@ a:hover {
 /* Paddings */
 .p-1 {
 	padding: 15px;
+}
+.p-2 {
+	padding: 30px;
 }
 /* /Paddings */
 
@@ -173,5 +188,114 @@ a:hover {
 /* About Company */
 .about-company {
 	background: #F3F3F3;
+	display: flex;
+	justify-content: space-between;
+}
+.about-company .about-text-section {
+	display: flex;
+	flex-direction: column;
+	max-width: 500px;
+}
+
+.about-company .about-image-section img {
+	width: 400px;
 }
 /* /About Company */
+
+/* Products Section  */
+
+.products {
+	display: flex;
+	flex-direction: column;
+}
+
+.products .products-items {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.products .products-items .products-item {
+	max-width: 300px;
+	border:  1px solid rgba(20,20,20,0.1);
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.products .products-items .products-item .product-title{
+	max-width: 200px;
+}
+
+.products .products-items .products-item .product-image img {
+	width: 200px;
+}
+.products .products-items .products-item .product-price {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.products .products-items .products-item .product-price .brand img{
+	width: 70px;
+}
+.products .button-section {
+	display: flex;
+	justify-content: center;
+}
+.products .button-section a {
+	font-weight: 700;
+	font-size: 25px;
+}
+/* /Products Section  */
+
+/* Contact section  */
+.contact-section {
+	background: #07A3E7;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.contact-section .contact-section-text {
+	max-width: 500px;
+	color:  white;
+}
+.contact-section .contact-section-input input[type="email"] {
+	width: 400px;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 15px;
+	font-size: 22px;
+	letter-spacing: 2px;
+	outline: none;
+}
+.contact-section .contact-section-input input[type="submit"] {
+	background: #383838;
+	color:  white;
+	padding: 15px 20px;
+	outline: none;
+	border: none;
+	border-radius: 10px;
+}
+/* /Contact section  */
+
+/* Footer */
+footer {
+	background: #F3F3F3;
+	justify-content: space-between;
+}
+footer img {
+	width: 150px;
+}
+footer .footer-links li{
+	list-style-type: none;
+}
+footer a:hover {
+	text-decoration: none;
+}
+footer .phone {
+	color: #07A3E7;
+}
+footer .email {
+	color: #07A3E7;
+}
+/* /Footer */
