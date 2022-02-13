@@ -581,6 +581,10 @@ a:hover {
 }
 .contact-section .contact-section-text {
 	max-width: 80%;
+	text-align: center;
+}
+.contact-section .contact-section-input {
+	padding: 20px;
 }
 .contact-section .contact-section-input input[type="email"] {
 	width: 60%;
