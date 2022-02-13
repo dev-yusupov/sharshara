@@ -147,6 +147,8 @@ a:hover {
 	align-items: center;
 	justify-content: space-between;
 	padding: 10px;
+	display: flex;
+	flex-direction: row;
 }
 .navbar .nav-items li {
 	list-style-type: none;
@@ -235,7 +237,7 @@ a:hover {
 
 .products .products-items {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: space-around;
 }
 
