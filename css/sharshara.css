@@ -460,6 +460,9 @@ a:hover {
 	display: flex;
 	flex-direction: row;
 }
+.navbar .nav-items {
+	display: none;
+}
 .navbar .nav-items li {
 	list-style-type: none;
 	padding: 10px 20px;
@@ -479,12 +482,8 @@ a:hover {
 .navbar .nav-logo img {
 	height: 83px;
 }
-.navbar .hamburger div {
-	width: 20px;
-	height: 3px;
-	margin-top: 3px;
-	background: black;
-	display: none;
+.navbar .hamburger{
+	display: initial;
 }
 /* /Navigation Section */
 
@@ -535,6 +534,7 @@ a:hover {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	margin-top: 30px;
 }
 
 .products .products-items .products-item .product-title {
