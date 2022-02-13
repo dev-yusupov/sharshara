@@ -2,6 +2,8 @@
 <html>
 <head>
 	<title>ООО "Шаршара" | Продукты сантехники</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="./css/sharshara.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
@@ -18,23 +20,28 @@
 		</div>
 	</header>
 	<!-- Navigation Section -->
-	<div class="navbar container row">
+	<div class="navbar container row" id="nav">
 		<div class="nav-logo ml-1">
 			<img src="./images/fa-logo.png">
 		</div>
-		<ul class="nav-items container row mr-1">
-			<li class="nav-item"><a class="active" href="#">Главная</a></li>
-			<li class="nav-item"><a href="#about">О Компании</a></li>
-			<li class="nav-item"><a href="#">Каталог Продукты</a></li>
-			<li class="nav-item"><a href="#">Контакт</a></li>
-		</ul>
+		<div class="navbar-items container row">
+			<ul class="nav-items container row mr-1">
+				<li class="nav-item"><a class="active" href="#">Главная</a></li>
+				<li class="nav-item"><a href="#about">О Компании</a></li>
+				<li class="nav-item"><a href="#">Каталог Продукты</a></li>
+				<li class="nav-item"><a href="#">Контакт</a></li>
+			</ul>
+			<div class="hamburger mr-1">
+				<i style="font-size: 26px;" class="fas fa-solid fa-bars"></i>
+			</div>
+		</div>
 	</div>
 	<!-- Main Section -->
 	<div class="main">
 		<a href="#" class="filled-button">Все Продукция</a>
 	</div>
 	<!-- About Company -->
-	<div class="about-company p-1 mt-1" id="about">
+	<div class="about-company p-2 mt-1" id="about">
 		<div class="about-text-section ml-1">
 			<div class="about-title">
 				<h2>О Компания</h2>
@@ -206,7 +213,7 @@
 	<!-- /Scripts -->
 
 	<!-- Footer -->
-	<footer class="container row p-2 mt-1">
+	<footer class="p-2 mt-1">
 		<div class="footer-logo-section">
 			<img src="./images/fa-logo.png">
 		</div>
